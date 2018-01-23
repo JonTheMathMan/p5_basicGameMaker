@@ -10,7 +10,7 @@ Draws your own walls and design a game using p5 and this game maker.
 - use `runAllTests(true)` in the console log to run all the tests including the verbose ones.
 
 ### How to run
-Download p5 from https://p5js.org/ then in that directory move this repo into the same folder as the `empty-example` folder is in. Then open [index.html](./index.html)
+Download p5 from https://p5js.org/, then in that directory, move or clone this repo into the same folder as the `empty-example` folder is in. Then open [index.html](./index.html)
 
 ![alt text](./screenshot.png)
 
