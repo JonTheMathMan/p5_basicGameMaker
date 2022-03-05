@@ -27,23 +27,23 @@ function loopPlusOne(array, index){
 function collision(wallPieces, playerPiece){
 	var mBoyPoints = [
 		{
-			x: playerPiece.x,
-			y: playerPiece.y,
+			x: playerPiece.newX,
+			y: playerPiece.newY,
 			angle: 90
 		},
 		{
-			x: playerPiece.x + playerPiece.width,
-			y: playerPiece.y,
+			x: playerPiece.newX + playerPiece.width,
+			y: playerPiece.newY,
 			angle: 180
 		},
 		{
-			x: playerPiece.x + playerPiece.width,
-			y: playerPiece.y + playerPiece.height,
+			x: playerPiece.newX + playerPiece.width,
+			y: playerPiece.newY + playerPiece.height,
 			angle: 270
 		},
 		{
-			x: playerPiece.x,
-			y: playerPiece.y + playerPiece.height,
+			x: playerPiece.newX,
+			y: playerPiece.newY + playerPiece.height,
 			angle: 0
 		}
 	];

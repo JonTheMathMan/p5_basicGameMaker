@@ -1,6 +1,8 @@
 var mBoy = {
 	x: 100,
+	newX: 100,
 	y: 100,
+	newY: 100,
 	width: 20,
 	height: 20
 };
