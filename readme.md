@@ -15,11 +15,11 @@ Download p5 from https://p5js.org/, then in that directory, move or clone this r
 
 ![alt text](./screenshot.png)
 
-### Collision
+### Polygon Collision
 The star of the show of this repo is the collision logic for polygons.
-The collision logic is pretty light weight for what it can offer and for what I have seen online. 
+The collision logic is pretty light weight for what it can offer and compared to the fancier math for collision that I have seen online. 
 It does still grow in operations as more geometry is added, so it isn't some kind of holy grail of collision, but perhaps polygons far away could be ignored.
-To read more, see [collision.md](./collision.md)
+To read more, see [polygon_collision.md](./polygon_collision.md)
 
 ## TODO
 - [ ] Add physics environment settings such as gravity, grip, speed, jump height, rotate on collision like a rigid body...
